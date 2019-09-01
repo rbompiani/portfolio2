@@ -1,6 +1,7 @@
 import React from "react";
 import Summary from "./Summary";
 import About from "./About";
+import Footer from "./Footer";
 import Proficiencies from "./Proficiencies";
 import {Route} from 'react-router-dom';
 
@@ -14,6 +15,7 @@ class Aside extends React.Component {
                 <Route path="/" exact component={About} />
                 <Route path="/projects/:id" component={Summary} />
                 <Route path="/" exact component={Proficiencies} />
+                <Footer />
             </aside>  
         )         
     }
