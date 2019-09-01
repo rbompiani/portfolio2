@@ -7,8 +7,8 @@ const ProjectData = {
             "long_desc": "This is a much longer description of the project, lessons learned, and future steps",
             "year": 2001,
             "img": "flower.jpg",
-            "github": "www.github.com",
-            "demo": "www.rbompiani.com",
+            "github": "http://www.github.com",
+            "demo": "http://www.rbompiani.com",
             "major_skill": "javascript",
             "skills": ["javascript","react","threed"]
         },

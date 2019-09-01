@@ -1,0 +1,19 @@
+.projectLinks{
+    width: 60px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100);
+  }
+  
+  .projectLinks:hover{
+    width: 70px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(0);
+  }
+
+  .projectLinksContainer{
+      height: 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
