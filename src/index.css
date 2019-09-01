@@ -13,13 +13,13 @@
 }
 
 /* GRID */
-#content {
+#root {
   display: grid;
   grid-template-columns: 400px auto;
   height: 100vh;
 }
 
-main {
+#projectGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;

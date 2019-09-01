@@ -12,7 +12,6 @@ const ProficiencyBar = (props)=>{
             bars.push("empty");
         }
     }
-    console.log(bars);
     
     return (
         <div>
