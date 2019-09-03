@@ -1,4 +1,5 @@
 import React from "react";
+import "./SkillBubble.css";
 
 const SkillBubble = (props)=>{
     const { skill } = props;

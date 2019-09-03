@@ -1,0 +1,43 @@
+.card {
+    position: relative;
+    padding: 30% 0;
+  }
+  
+  .card:hover .image {
+    background-color: var(--react);
+    opacity: .5;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover .snapshot {
+    opacity: 1;
+    transform: translateY(-70%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card .snapshot {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0em 10% 0em 10%;
+    opacity: 0;
+  }
+
+  .skillBlock {
+    position: absolute;
+    width:90%;
+    padding: 0% 0% 5% 10%;
+    bottom:0px;
+  }

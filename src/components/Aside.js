@@ -3,6 +3,7 @@ import Summary from "./Summary";
 import About from "./About";
 import Footer from "./Footer";
 import Proficiencies from "./Proficiencies";
+import "./Aside.css";
 import {Route} from 'react-router-dom';
 
 class Aside extends React.Component {

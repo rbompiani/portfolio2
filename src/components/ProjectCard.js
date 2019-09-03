@@ -1,5 +1,6 @@
 import React from "react";
 import SkillBubble from "./SkillBubble";
+import "./ProjectCard.css"
 import {Link} from "react-router-dom";
 
 

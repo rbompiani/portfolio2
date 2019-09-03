@@ -8,9 +8,8 @@ function About(){
             This is my about text. Include my previous experience, and how it relates to programming. 
             Also talk about my passions, intrests, and abilities.
         </p>
-        <a>
-            Resume
-            <img src="#" />
+        <a className="resumeLink">
+            Resume <i class="fas fa-long-arrow-alt-right"></i>  
         </a>
     </section>  
     )

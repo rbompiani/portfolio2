@@ -2,7 +2,7 @@ import React from "react";
 import projectData from "../projectData";
 import SkillName from "./SkillName";
 import "./Summary.css";
-
+import "./About.css";
 
 
 class Summary extends React.Component{
@@ -26,10 +26,14 @@ class Summary extends React.Component{
                 <h2>Project Links</h2>
                 <div className="projectLinksContainer">
                     <a href={this.state.demo} target="new">
-                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/earth.svg"} /> 
+                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/earth.svg"} />
+                        <p className="projectLinksText">Demo </p>
+                        <i class="fas fa-long-arrow-alt-right"></i> 
                     </a>
                     <a href={this.state.github} target="new">
-                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/github.svg"} /> 
+                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/github.svg"} />
+                        <p className="projectLinksText">GitHub</p>
+                        <i class="fas fa-long-arrow-alt-right"></i>  
                     </a>                    
                 </div>
 

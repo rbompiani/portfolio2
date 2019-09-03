@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Main from './components/Main';
 import Aside from './components/Aside';
 import {BrowserRouter} from 'react-router-dom';

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Proficiencies.css";
+import "./ProficiencyBar.css";
 
 const ProficiencyBar = (props)=>{
     const { skill, proficiency, checked } = props;
@@ -14,20 +15,21 @@ const ProficiencyBar = (props)=>{
     }
     
     return (
-        <div>
+        <div className="proficiencyLine">
             <h3>{skill}</h3>
-            {bars.map(b =>{
-                if(b==="full"){
-                    return(
-                        <span className={`bar ${b} ${skill.toLowerCase()}`} />       
-                    )
-                } else {
-                    return(
-                        <span className={`bar ${b}`} />    
-                    )
-                }
-                
-            })}
+            <div className="proficiencyMeter">
+                {bars.map(b =>{
+                    if(b==="full"){
+                        return(
+                            <span className={`bar ${b} ${skill.toLowerCase()}`} />       
+                        )
+                    } else {
+                        return(
+                            <span className={`bar ${b}`} />    
+                        )
+                    }
+               })}                                    
+            </div>
             <label className="switch">
                 <input type="checkbox" checked={checked}></input>
                 <span className={`${skill.toLowerCase()} slider round` } ></span>
