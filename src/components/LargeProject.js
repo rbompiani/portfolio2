@@ -1,17 +1,25 @@
 import React from "react";
 import "./LargeProject.css";
-import ProjectData from "../projectData";
+import Slide from "./Slide";
+import projectData from "../projectData";
 
 
 class LargeProject extends React.Component {
-    componentDidMount(){
-        console.log("inside large project");
+    state = {};
+
+    componentWillMount(){
+        const selectedProj = projectData.projects.find(proj => {return proj.id==this.props.match.params.id});
+        this.setState(selectedProj);
     };
     
     render(){
         return (
-            <div id="selectedProject">
+            <div class="slideshow-container">
+                {this.state.img.map(img =>{
+                    return (<Slide img={img} />);
+                })}
             </div>
+
         )        
     }
 

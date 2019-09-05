@@ -19,14 +19,13 @@ class Summary extends React.Component{
     render(){
         return(
             <section>
-                {console.log(this.state.skills)}
                 <h2>{this.state.title}</h2>
                 <p>{this.state.long_desc}</p>
 
                 <h2>Project Links</h2>
                 <div className="projectLinksContainer">
                     <a href={this.state.demo} target="new">
-                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/earth.svg"} />
+                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/demo.svg"} />
                         <p className="projectLinksText">Demo </p>
                         <i class="fas fa-long-arrow-alt-right"></i> 
                     </a>

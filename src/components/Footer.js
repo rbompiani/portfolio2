@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import GalleryIcon from "./GalleryIcon";
+import { Route, Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -15,7 +17,9 @@ function Footer(){
             </a>                    
             <a href="mailto:info@rbompiani.com">
                 <img src={process.env.PUBLIC_URL+"/images/email.svg"} className="social" />
-            </a>                       
+            </a>
+            <Route path="/projects" component={GalleryIcon} />
+                       
         </footer>        
     )
 }

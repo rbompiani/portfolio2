@@ -58,19 +58,20 @@ h1 {
 }
 
 h2 {
-  font-family: proxima-nova-extra-condensed, sans-serif;
-  font-weight: 600;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 26px;
   Text-transform: uppercase;
+  margin-top: 60px;
 }
 
 h3 {
   font-family: proxima-nova-condensed,sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
-  display: inline;
+  margin: 0px 0px 5px 0px;
 }
 
 p {
@@ -79,6 +80,7 @@ p {
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
+  text-transform: none;
 }
 
 a {
@@ -91,9 +93,19 @@ a {
   text-decoration: none; 
 }
 
+.bold {
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* Light Text Class */
 .light {
   color: white;
+}
+
+.right {
+  text-align: right;
 }
 
 

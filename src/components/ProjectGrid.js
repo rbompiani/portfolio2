@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectData from "../projectData";
+import "./ProjectGrid.css"
 
 class ProjectGrid extends React.Component {
     state = ProjectData;

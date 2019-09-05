@@ -15,26 +15,23 @@ const ProficiencyBar = (props)=>{
     }
     
     return (
-        <div className="proficiencyLine">
-            <h3>{skill}</h3>
-            <div className="proficiencyMeter">
-                {bars.map(b =>{
-                    if(b==="full"){
-                        return(
-                            <span className={`bar ${b} ${skill.toLowerCase()}`} />       
-                        )
-                    } else {
-                        return(
-                            <span className={`bar ${b}`} />    
-                        )
-                    }
-               })}                                    
-            </div>
-            <label className="switch">
-                <input type="checkbox" checked={checked}></input>
-                <span className={`${skill.toLowerCase()} slider round` } ></span>
-            </label>
+        <div>
+                <h3 className="proficiency">{skill}</h3>
+                <div className="proficiencyMeter">
+                    {bars.map(b =>{
+                        if(b==="full"){
+                            return(
+                                <span className={`bar ${b} ${skill.toLowerCase()}`} />       
+                            )
+                        } else {
+                            return(
+                                <span className={`bar ${b}`} />    
+                            )
+                        }
+                })}                                    
+                </div>          
         </div>
+
     )
 }
 

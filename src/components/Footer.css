@@ -1,11 +1,14 @@
 footer {
     display: grid;
-    height: 40px;
-    grid-template-columns: 40px 40px 40px auto 40px;
+    align-items: end;
+    grid-template-columns: 40px 40px 40px auto 85px;
     grid-gap: 1em;
     position: absolute;
     bottom: 0px;
+    margin-bottom:10px;
 }
+
+
 
 /* --------------- SOCIAL MEDIA ----------------- */
 .social{
