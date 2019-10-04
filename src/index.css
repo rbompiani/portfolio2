@@ -8,8 +8,8 @@
   --html-light: #e239ff;
   --node: #61d131;
   --node-light: #92cf6e;
-  --threeD: #FF398F;
-  --threeD-light: #ff7789; 
+  --threed: #FF398F;
+  --threed-light: #ff7789; 
 }
 
 .javascript {
@@ -29,7 +29,7 @@
 }
 
 .threed {
-    background: linear-gradient(180deg, var(--threeD-light) 0%, var(--threeD) 100%);
+    background: linear-gradient(180deg, var(--threed-light) 0%, var(--threed) 100%);
 }
 
 
