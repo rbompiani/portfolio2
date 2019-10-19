@@ -3,7 +3,5 @@ aside {
     margin: 0px;
     padding: 10px 32px 10px 48px;
     height:100%;
-    width: 400px;
-    position: fixed;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   }

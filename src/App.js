@@ -4,13 +4,40 @@ import Aside from './components/Aside';
 import {BrowserRouter} from 'react-router-dom';
 
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Aside />
-      <Main />   
-    </BrowserRouter>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isDesktop: false
+    };
+
+    this.updatePredicate = this.updatePredicate.bind(this);
+  }
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener("resize", this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updatePredicate);
+  }
+
+  updatePredicate() {
+    this.setState({ isDesktop: window.innerWidth > 800 });
+  }
+
+  render (){
+    return (
+      <BrowserRouter>
+        {this.state.isDesktop ? (
+          <Aside />
+        ):null}      
+        <Main />   
+      </BrowserRouter>
+    );
+  }
+
 }
 
 export default App;
