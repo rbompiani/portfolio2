@@ -11,7 +11,7 @@ function About(){
         </p>
         <Link to={"/resume"}>
             <p className="bold right"> 
-                 Resume <i class="fas fa-long-arrow-alt-right"></i> 
+                 Resume <i className="fas fa-long-arrow-alt-right"></i> 
             </p>
         </Link>
     </section>  

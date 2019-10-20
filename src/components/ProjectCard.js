@@ -15,7 +15,7 @@ class ProjectCard extends React.Component{
                         <div className="snapshot">
                             <h2 className="light">{this.props.title}</h2>
                             <p className="light">{this.props.short_desc}</p>
-                            <p className="light bold right">More <i class="fas fa-long-arrow-alt-right"></i> </p>  
+                            <p className="light bold right">More <i className="fas fa-long-arrow-alt-right"></i> </p>  
                         </div>
                         <div className="skillBlock">
                             {this.props.skills.map((s, idx) => {

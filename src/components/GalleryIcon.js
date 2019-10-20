@@ -8,7 +8,7 @@ function GalleryIcon () {
         <Link to={"/"}>
 
             <p className="projectLinksText">Gallery </p>
-            <i class="fas fa-undo-alt"></i>
+            <i className="fas fa-undo-alt"></i>
         </Link> 
     </span>
     )

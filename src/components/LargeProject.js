@@ -8,13 +8,13 @@ class LargeProject extends React.Component {
     state = {};
 
     componentWillMount(){
-        const selectedProj = projectData.projects.find(proj => {return proj.id==this.props.match.params.id});
+        const selectedProj = projectData.projects.find(proj => {return proj.id===this.props.match.params.id});
         this.setState(selectedProj);
     };
     
     render(){
         return (
-            <div class="slideshow-container">
+            <div className="slideshow-container">
                 {this.state.img.map(img =>{
                     return (<Slide img={img} />);
                 })}

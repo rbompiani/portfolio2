@@ -10,7 +10,7 @@ class Summary extends React.Component{
     state={};
 
     componentWillMount(){
-        const selectedProj = projectData.projects.find(proj => {return proj.id==this.props.match.params.id});
+        const selectedProj = projectData.projects.find(proj => {return proj.id===this.props.match.params.id});
         this.setState(selectedProj);
     }
 
@@ -27,12 +27,12 @@ class Summary extends React.Component{
                     <a href={this.state.demo} target="new">
                         <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/demo.svg"} />
                         <p className="projectLinksText">Demo </p>
-                        <i class="fas fa-long-arrow-alt-right"></i> 
+                        <i className="fas fa-long-arrow-alt-right"></i> 
                     </a>
                     <a href={this.state.github} target="new">
                         <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/github.svg"} />
                         <p className="projectLinksText">GitHub</p>
-                        <i class="fas fa-long-arrow-alt-right"></i>  
+                        <i className="fas fa-long-arrow-alt-right"></i>  
                     </a>                    
                 </div>
 
