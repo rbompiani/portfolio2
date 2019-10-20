@@ -10,9 +10,7 @@ class Aside extends React.Component {
     render(){
         return(
             <aside>
-                <header>
-                    <Link to="/"><h1>Rebecca Bompiani</h1></Link>
-                </header>
+                <Link to="/"><h1>Rebecca Bompiani</h1></Link>
                 <Route path={["/","/resume"]} exact component={About} />
                 <Route path={["/","/resume"]} exact component={Proficiencies} />
                 <Route path="/projects/:id" component={Summary} />

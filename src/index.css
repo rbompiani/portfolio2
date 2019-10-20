@@ -54,7 +54,7 @@ body{
 /* TEXT STYLING */
 h1 {
   font-family: proxima-nova,sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 48px;
   /*letter-spacing: -3px;*/
@@ -81,7 +81,7 @@ h3 {
 
 p {
   font-family: proxima-nova,sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
@@ -112,6 +112,16 @@ a {
 .right {
   text-align: right;
 }
+
+/* Media Query Styling Updates */
+
+@media only screen and (min-width: 800px) {
+  h1, p {
+    font-weight: 100;
+  }  
+
+}
+
 
 
 
