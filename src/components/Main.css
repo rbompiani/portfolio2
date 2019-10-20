@@ -1,0 +1,10 @@
+main {
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        padding-left: 400px;
+    }
+}

@@ -1,28 +1,17 @@
 import React from "react";
 import "./Navbar.css";
+import DrawerButton from "./DrawerButton";
 import {Route, Link} from 'react-router-dom';
 
-class Navbar extends React.Component {
-    render(){
+const Navbar = props => {
         return(
             <header>
                     <Link to="/"><h1>Rebecca Bompiani</h1></Link>
                 <nav>
-                    <ul>
-                        <Link to={"/"}>
-                            <li>Projects</li>
-                        </Link>
-                        <Link to={"/about"}>
-                            <li>About</li>
-                        </Link>
-                        <Link to={"/resume"}>
-                            <li>Resume</li>
-                        </Link>
-                    </ul>
+                    <DrawerButton click={props.drawerClickHandler}/>
                 </nav>
             </header>
         )         
-    }
 }
 
 export default Navbar;

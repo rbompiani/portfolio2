@@ -16,7 +16,7 @@ const Resume = ()=> {
                     Managed Consultants throughout the design and construction process.</p>
             </div>
             <div class="resumeDate">
-                20013 - present
+                2013 - present
             </div>
 
             <div class="resumeEntry">

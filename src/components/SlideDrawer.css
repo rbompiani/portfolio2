@@ -1,0 +1,19 @@
+.slide-drawer {
+    background-color: white;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    z-index: 110;
+    padding: 40px 24px 40px 24px;
+}
+
+.slide-drawer>a{
+    color:#666;
+    list-style: none;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.slide-drawer>a>li {
+    margin-top: 30px;
+}
