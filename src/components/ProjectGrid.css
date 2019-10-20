@@ -1,5 +1,16 @@
 #projectGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #projectGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }  
+  }
+
+  @media only screen and (min-width: 1600px) {
+    #projectGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }  
   }
