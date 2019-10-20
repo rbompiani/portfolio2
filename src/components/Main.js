@@ -14,7 +14,6 @@ class Main extends React.Component{
                 <Route path="/projects/:id" exact component={LargeProject} />
                 <Route path="/resume" exact component={Resume} />
             </main>
-            
         )                
     }
     
