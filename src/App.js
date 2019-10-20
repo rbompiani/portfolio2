@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from './components/Main';
 import Aside from './components/Aside';
+import Navbar from './components/Navbar';
 import {BrowserRouter} from 'react-router-dom';
 
 
@@ -32,7 +33,7 @@ class App extends React.Component {
       <BrowserRouter>
         {this.state.isDesktop ? (
           <Aside />
-        ):null}      
+        ):<Navbar />}      
         <Main />   
       </BrowserRouter>
     );
