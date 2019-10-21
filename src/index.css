@@ -54,7 +54,7 @@ h2 {
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 26px;
+  font-size: 20px;
   Text-transform: uppercase;
   margin: 0px;
 }
@@ -107,7 +107,12 @@ a {
   h1 {
     margin-bottom: 40px;
     font-size: 48px;
-  }  
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
   h1, p {
     font-weight: 100;
   }  

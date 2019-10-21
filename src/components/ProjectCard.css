@@ -11,7 +11,7 @@
   }
   
   .card:hover .snapshot {
-    opacity: 1;
+    opacity: .95;
     transform: translateY(calc(-100% + 50px));
     transition: all 0.5s ease-in-out;
   }
@@ -38,7 +38,7 @@
     width: 100%;
     bottom: calc(-100% + 50px);
     padding: 8px 24px 8px 24px;
-    opacity: 1;
+    opacity: .95;
   }
 
   .skillBlock {
@@ -47,6 +47,12 @@
 
   .projHeadline {
     display: grid;
-    grid-template-columns: auto 100px;
+    grid-template-columns: auto 80px;
     padding-bottom: 16px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .projHeadline {
+      grid-template-columns: auto 100px;
+    }
   }
