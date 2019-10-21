@@ -55,7 +55,7 @@ class App extends React.Component {
         {this.state.isDesktop ? (
           <Aside />
         ):<Navbar drawerClickHandler={this.drawerButtonClickHandler}/>}      
-        <Main />
+        <Main isDesktop={this.state.isDesktop} />
         {slideDrawer}
         {backdrop}
       </BrowserRouter>

@@ -7,7 +7,7 @@ import "./AboutPage.css";
 class AboutPage extends React.Component {
     render(){
         return(
-            <div className="aboutMain">
+            <div className="mobileWrapper">
                 <About />
                 <Proficiencies />
                 <Footer />
