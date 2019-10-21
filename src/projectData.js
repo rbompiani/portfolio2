@@ -9,7 +9,7 @@ const ProjectData = {
             "img": ["recipe1.jpg","recipe2.jpg","recipe3.jpg"],
             "github": "https://github.com/rbompiani/Project2",
             "demo": "https://frozen-plateau-58578.herokuapp.com/index",
-            "major_skill": "javascript",
+            "major_skill": "node",
             "skills": ["javascript","mysql","node"]
         },
         {

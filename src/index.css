@@ -13,23 +13,23 @@
 }
 
 .javascript {
-  background: linear-gradient(180deg, var(--js-light) 0%, var(--js) 100%);
+  background: linear-gradient(-20deg, var(--js-light) 0%, var(--js) 100%);
 }
 
 .mysql {
-  background: linear-gradient(180deg, var(--html-light) 0%, var(--html) 100%);
+  background: linear-gradient(-20deg, var(--html-light) 0%, var(--html) 100%);
 }
 
 .node {
-    background: linear-gradient(180deg, var(--node-light) 0%, var(--node) 100%);
+    background: linear-gradient(-20deg, var(--node-light) 0%, var(--node) 100%);
 }
 
 .react {
-    background: linear-gradient(180deg, var(--react-light) 0%, var(--react) 100%);
+    background: linear-gradient(-20deg, var(--react-light) 0%, var(--react) 100%);
 }
 
 .threed {
-    background: linear-gradient(180deg, var(--threed-light) 0%, var(--threed) 100%);
+    background: linear-gradient(-20deg, var(--threed-light) 0%, var(--threed) 100%);
 }
 
 
@@ -56,7 +56,7 @@ h2 {
   font-style: normal;
   font-size: 26px;
   Text-transform: uppercase;
-  margin-top: 60px;
+  margin: 0px;
 }
 
 h3 {
