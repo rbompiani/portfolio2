@@ -13,10 +13,18 @@ const ProficiencyBar = (props)=>{
             bars.push("empty");
         }
     }
+
+    let skillName;
+
+    if(skill==="threeD"){
+        skillName = "3D";
+    } else {
+        skillName = skill;
+    }
     
     return (
         <div>
-                <h3 className="proficiency">{skill}</h3>
+                <h3 className="proficiency">{skillName}</h3>
                 <div className="proficiencyMeter">
                     {bars.map(b =>{
                         if(b==="full"){

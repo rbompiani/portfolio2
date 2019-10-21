@@ -3,9 +3,14 @@ footer {
     align-items: end;
     grid-template-columns: 40px 40px 40px auto 85px;
     grid-gap: 1em;
-    position: absolute;
-    bottom: 0px;
-    margin-bottom:10px;
+    margin:32px 0px 10px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        position: absolute;
+        bottom: 0px;
+    }    
 }
 
 

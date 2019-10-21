@@ -3,7 +3,15 @@ import "./SkillBubble.css";
 
 const SkillBubble = (props)=>{
     const { skill } = props;
-    const initial = skill.charAt(0);
+    console.log(skill);
+    let initial;
+
+    if (skill==="threed"){
+        initial = "3";
+    } else {
+        initial = skill.charAt(0);
+    }
+    
     return (
         <div className={`skill ${skill}`}>{initial}</div>
     )
