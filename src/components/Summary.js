@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "../projectData";
 import SkillName from "./SkillName";
+import LinkIcon from "./LinkIcon";
 import "./Summary.css";
 import "./About.css";
 
@@ -14,9 +15,24 @@ class Summary extends React.Component{
         this.setState(selectedProj);
     }
 
-
-
     render(){
+
+        let gitHub;
+        let demo;
+        let wireframe;
+
+        if (this.state.demo){
+            demo = <LinkIcon type="demo" link={this.state.demo} />;
+        }
+
+        if (this.state.github){
+            gitHub = <LinkIcon type="github" link={this.state.github} />;
+        }
+
+        if (this.state.wireframe){
+            wireframe = <LinkIcon type="wireframe" link={this.state.wireframe} />
+        }
+
         return(
             <section>
                 <h2>{this.state.title}</h2>
@@ -24,16 +40,9 @@ class Summary extends React.Component{
 
                 <h2>Project Links</h2>
                 <div className="projectLinksContainer">
-                    <a href={this.state.demo} target="new">
-                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/demo.svg"} />
-                        <p className="projectLinksText">Demo </p>
-                        <i className="fas fa-long-arrow-alt-right"></i> 
-                    </a>
-                    <a href={this.state.github} target="new">
-                        <img className="projectLinks" src={process.env.PUBLIC_URL+"/images/github.svg"} />
-                        <p className="projectLinksText">GitHub</p>
-                        <i className="fas fa-long-arrow-alt-right"></i>  
-                    </a>                    
+                    {demo}
+                    {gitHub}
+                    {wireframe}                   
                 </div>
 
                 <h2>Skills Used</h2>

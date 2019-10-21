@@ -9,6 +9,7 @@ const ProjectData = {
             "img": ["recipe1.jpg","recipe2.jpg","recipe3.jpg"],
             "github": "https://github.com/rbompiani/Project2",
             "demo": "https://frozen-plateau-58578.herokuapp.com/index",
+            "wireframe": "https://xd.adobe.com/view/9b0cb70d-5cb6-45c9-4e9d-541deefa97d6-ed3d/",
             "major_skill": "node",
             "skills": ["javascript","mysql","node"]
         },
@@ -20,7 +21,7 @@ const ProjectData = {
             "year": 2019,
             "img": ["cupboard1.jpg", "cupboard2.jpg", "cupboard3.jpg"],
             "github": "https://github.com/rbompiani/CupboardCompanion",
-            "demo": "www.rbompiani.com",
+            "wireframe": "https://xd.adobe.com/view/f5930a4a-704d-4486-6a21-42cda84acba3-83a2/",
             "major_skill": "react",
             "skills": ["react","node","mysql"]
         },        
@@ -31,7 +32,6 @@ const ProjectData = {
             "long_desc": "Levarage webGL and javascript to build dynamic 3d models. Accessories turn on and off in real time, and the camera automatically adjusts to view those accessories. A running sidebar of options and pricing keeps you up to date as you add and remove parts ",
             "year": 2014,
             "img" : ["auto1.jpg","auto2.jpg"],
-            "github": "https://github.com/rbompiani/",
             "demo": "http://rbompiani.com/projects/chrysler/index.html",
             "major_skill": "javascript",
             "skills": ["javascript","threed"]
@@ -43,7 +43,6 @@ const ProjectData = {
             "long_desc": "In 2011 Oregon State University was struggling to provide facilities for an explosive increase in student enrollment. By aggregating existing data into interactive and visual formats, we were able to provide recommendations for efficient expansion of the campus.",
             "year": 2011,
             "img": ["campus1.jpg","campus2.jpg","campus3.jpg"],
-            "github": "www.github.com",
             "demo": "http://rbompiani.com/projects/testing.html",
             "major_skill": "javascript",
             "skills": ["javascript","mysql"]

@@ -1,0 +1,22 @@
+.projectLinks{
+    width: 50px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+    
+  .projectLinks:hover{
+    width: 60px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .projectLinksText{
+    display: inline;
+    font-family: proxima-nova-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--react);
+    text-transform: uppercase;
+    text-decoration: none; 
+  }
