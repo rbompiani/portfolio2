@@ -1,13 +1,13 @@
 /* COLOR VARIABLES */
 :root {
   --react:#39AAFF;
-  --react-light:rgb(122, 217, 255);
+  --react-light:rgb(134, 241, 255);
   --js: #FFAA39;
   --js-light: #ffd839; 
   --html: #A939FF;
   --html-light: #e239ff;
   --node: #61d131;
-  --node-light: #92cf6e;
+  --node-light: #bbe677;
   --threed: #FF398F;
   --threed-light: #ff7789; 
 }
