@@ -15,6 +15,18 @@ const ProjectData = {
         },
         {
             "id": 2,
+            "title": "Interactive Campus",
+            "short_desc": "An interactive map-based interface that would allow planners, registrars, and department members alike to view their campus data more succinctly",
+            "long_desc": "Oregon State University was struggling to provide facilities for an explosive increase in student enrollment. By aggregating existing data into interactive and visual formats, we were able to provide recommendations for efficient expansion of the campus.",
+            "year": 2011,
+            "img": ["campus1.jpg", "campus2.jpg", "campus3.jpg"],
+            "github": "https://github.com/rbompiani/campusMapping",
+            "demo": "http://rbompiani.com/OSU/",
+            "major_skill": "javascript",
+            "skills": ["javascript", "mysql"]
+        },
+        {
+            "id": 3,
             "title": "Cupboard Companion",
             "short_desc": "Monitor and manage your inventory with sensors that log data in real time",
             "long_desc": "With the help of Arduino and the Johnny5 Library, Users can track inventory by weight in real time. Each inventory item has an email reminder to reorder when the stock reaches a designated threshold.  Reorder inventory by clicking on the gauge's associated reorder link",
@@ -26,7 +38,7 @@ const ProjectData = {
             "skills": ["react", "node", "mysql"]
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Dynamic 3D",
             "short_desc": "Shop for car accessories dynamically in 3d, from the comfort of your own home",
             "long_desc": "Levarage webGL and javascript to build dynamic 3d models. Accessories turn on and off in real time, and the camera automatically adjusts to view those accessories. A running sidebar of options and pricing keeps you up to date as you add and remove parts ",
@@ -37,16 +49,16 @@ const ProjectData = {
             "skills": ["javascript", "css"]
         },
         {
-            "id": 4,
-            "title": "Interactive Campus",
-            "short_desc": "An interactive map-based interface that would allow planners, registrars, and department members alike to view their campus data more succinctly",
-            "long_desc": "Oregon State University was struggling to provide facilities for an explosive increase in student enrollment. By aggregating existing data into interactive and visual formats, we were able to provide recommendations for efficient expansion of the campus.",
-            "year": 2011,
-            "img": ["campus1.jpg", "campus2.jpg", "campus3.jpg"],
-            "github": "https://github.com/rbompiani/campusMapping",
-            "demo": "http://rbompiani.com/OSU/",
-            "major_skill": "javascript",
-            "skills": ["javascript", "mysql"]
+            "id": 5,
+            "title": "Think You Know Flags?",
+            "short_desc": "A simple, yet stylish, guessing game. How well do you think you know world flags?",
+            "long_desc": "To keep users engaged in this simple guessing game, CSS animations flip cards to reveal correct guesses, provide excitement and engaging feedback.",
+            "year": 2019,
+            "img": ["Flags1.jpg"],
+            "github": "https://github.com/rbompiani/WordGuessGame",
+            "demo": "http://rbompiani.com/projects/Flags/",
+            "major_skill": "css",
+            "skills": ["css", "javascript"]
         }
     ]
 
